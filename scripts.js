@@ -70,18 +70,27 @@ function createEnglishLanguage()
 	};
 }
 
+
+
 function getLanguageToBeUsed()
 {
-	return createPortugueseLanguage();
+	if (document.location.search == "?lang=en")
+		return createEnglishLanguage();
+	else if (navigator.language.startsWith("pt") || document.location.search == "?lang=pt")
+		return createPortugueseLanguage();
+	else
+		return createEnglishLanguage();
 }
 
 function applyLanguage(language)
 {
-	for (var key in language.strings) {
+	for (var key in language.strings)
+	{
 		var str = language.strings[key];
 		$("#" + key).html(str);
 	}
-	for (var key in language.images) {
+	for (var key in language.images)
+	{
 		var imageData = language.images[key];
 		var images = $("#" + key);
 		images.attr("src", imageData.src);
@@ -91,5 +100,7 @@ function applyLanguage(language)
 
 function initLanguage()
 {
+	
+	//alert(document.location.search)
 	applyLanguage(getLanguageToBeUsed());
 }
