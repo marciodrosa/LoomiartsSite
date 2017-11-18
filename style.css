@@ -24,13 +24,16 @@ h1 {
 .squadron51>img {
   padding-bottom: 2rem;
 }
+.features-list {
+  text-align: left;
+}
+.squadron51-about-container {
+  padding-bottom: 3rem;
+}
 .contact {
   padding-top: 1rem;
   padding-bottom: 3rem;
   text-align: center;
-}
-.features-list {
-  text-align: left;
 }
 .loomiarts-red-button {
   background-color: #A20033;
