@@ -29,7 +29,7 @@ function createPortugueseLanguage()
 		},
 		images: {
 			squadron51BannerImage: {
-				src:"Images/Squadron51BannerSitePT.png",
+				src:"Images/Squadron51BannerSitePT.jpg",
 				alt:"Logo do jogo Esquadrão 51"
 			}
 		}
@@ -65,7 +65,7 @@ function createEnglishLanguage()
 		},
 		images: {
 			squadron51BannerImage: {
-				src:"Images/Squadron51BannerSiteEN.png",
+				src:"Images/Squadron51BannerSiteEN.jpg",
 				alt:"Squadron 51 game logo"
 			}
 		}
