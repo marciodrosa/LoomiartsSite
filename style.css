@@ -1,15 +1,38 @@
 body {
   padding-top: 5rem;
 }
+h1 {
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
 .loomiarts-about {
-  padding: 3rem 1.5rem;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
   text-align: center;
 }
-.squadron51-about {
-  padding: 3rem 1.5rem;
+.loomiarts-about>img {
+  padding-bottom: 5rem;
+}
+.squadron51 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   text-align: center;
+}
+.squadron51>p {
+  padding: 1rem 1rem;
+}
+.squadron51>img {
+  padding-bottom: 2rem;
 }
 .contact {
-  padding: 3rem 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
   text-align: center;
+}
+.features-list {
+  text-align: left;
+}
+.loomiarts-red-button {
+  background-color: #A20033;
+  border-color: #A20033;
 }

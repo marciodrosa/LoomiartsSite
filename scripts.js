@@ -55,8 +55,8 @@ function createEnglishLanguage()
 			squadron51FeatureText4:"&bull; Local and cooperative multiplayer mode for two players.",
 			squadron51FeatureText5:"&bull; Target release date: ending of 2018.",
 			contactHeadlineText:"CONTACT",
-			contactEmailText:"To talk with Loomiarts, please send an e-mail to <b>contact@loomiarts.com</b>",
-			contactFacebookText:"Like our pages on Facebook:",
+			contactEmailText:"To get in touch with Loomiarts, please send an e-mail to <b>contact@loomiarts.com</b>",
+			contactFacebookText:"Follow our pages on Facebook:",
 			contactSquadron51FacebookButton:"Squadron 51",
 			contactTwitterText:"Follow Loomiarts on Twitter:",
 			contactYoutubeText:"To see all gameplay videos and trailers, subscribe to the Loomiarts Youtube channel:"
