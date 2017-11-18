@@ -1,1 +1,1 @@
-Loomiarts web page project.
+Loomiarts web site. Just a static HTML.
