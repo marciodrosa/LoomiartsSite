@@ -20,7 +20,7 @@ function createPortugueseLanguage()
 			squadron51FeatureText4:"&bull; Multiplayer local cooperativo para dois jogadores.",
 			squadron51FeatureText5:"&bull; Previsão de lançamento: segundo semestre de 2018.",
 			contactHeadlineText:"CONTATO",
-			contactEmailText:"Para entrar em contato com a Loomiarts, mande um e-mail para <b>support@loomiarts.com</b>",
+			contactEmailText:"Para entrar em contato com a Loomiarts, mande um e-mail para <b>contato@loomiarts.com</b>",
 			contactFacebookText:"Curta as nossas páginas no Facebook:",
 			contactSquadron51FacebookButton:"Esquadrão 51",
 			contactTwitterText:"Siga a Loomiarts no Twitter:",
@@ -55,7 +55,7 @@ function createEnglishLanguage()
 			squadron51FeatureText4:"&bull; Local and cooperative multiplayer mode for two players.",
 			squadron51FeatureText5:"&bull; Target release date: ending of 2018.",
 			contactHeadlineText:"CONTACT",
-			contactEmailText:"To talk with Loomiarts, please send an e-mail to <b>support@loomiarts.com</b>",
+			contactEmailText:"To talk with Loomiarts, please send an e-mail to <b>contact@loomiarts.com</b>",
 			contactFacebookText:"Like our pages on Facebook:",
 			contactSquadron51FacebookButton:"Squadron 51",
 			contactTwitterText:"Follow Loomiarts on Twitter:",
@@ -100,7 +100,5 @@ function applyLanguage(language)
 
 function initLanguage()
 {
-	
-	//alert(document.location.search)
 	applyLanguage(getLanguageToBeUsed());
 }
