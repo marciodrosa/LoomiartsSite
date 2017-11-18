@@ -21,10 +21,11 @@ function createPortugueseLanguage()
 			squadron51FeatureText5:"&bull; Previsão de lançamento: segundo semestre de 2018.",
 			contactHeadlineText:"CONTATO",
 			contactEmailText:"Para entrar em contato com a Loomiarts, mande um e-mail para <b>contato@loomiarts.com</b>",
+			downloadPresskitText:"Clique no botão abaixo para baixar o press kit do jogo Esquadrão 51:",
 			contactFacebookText:"Curta as nossas páginas no Facebook:",
 			contactSquadron51FacebookButton:"Esquadrão 51",
 			contactTwitterText:"Siga a Loomiarts no Twitter:",
-			contactYoutubeText:"Para acompanhar os vídeos dos jogos da Loomiarts, inscreva-se no canal do Youtube:"
+			contactYoutubeText:"Inscreva-se no canal do Youtube da Loomiarts:"
 		},
 		images: {
 			squadron51BannerImage: {
@@ -56,10 +57,11 @@ function createEnglishLanguage()
 			squadron51FeatureText5:"&bull; Target release date: ending of 2018.",
 			contactHeadlineText:"CONTACT",
 			contactEmailText:"To get in touch with Loomiarts, please send an e-mail to <b>contact@loomiarts.com</b>",
+			downloadPresskitText:"Click the button below to download the Squadron 51 press kit:",
 			contactFacebookText:"Follow our pages on Facebook:",
 			contactSquadron51FacebookButton:"Squadron 51",
 			contactTwitterText:"Follow Loomiarts on Twitter:",
-			contactYoutubeText:"To see all gameplay videos and trailers, subscribe to the Loomiarts Youtube channel:"
+			contactYoutubeText:"Subscribe to Loomiarts Youtube channel:"
 		},
 		images: {
 			squadron51BannerImage: {
