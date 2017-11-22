@@ -57,3 +57,13 @@ h1 {
 	margin: 12px;
 	width: 50px;
 }
+.loading-spinner {
+    position:relative;
+    width:100%;
+}
+.loading-spinner>img {
+    position:absolute;
+    left:0;
+    right:0;
+    margin:auto;
+}

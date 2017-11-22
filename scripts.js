@@ -1,5 +1,3 @@
-$(initLanguage);
-
 function createPortugueseLanguage()
 {
 	return {
@@ -100,7 +98,10 @@ function applyLanguage(language)
 	}
 }
 
-function initLanguage()
+$(function()
 {
 	applyLanguage(getLanguageToBeUsed());
-}
+	$(".loading-spinner").hide();
+	$("#navbar").show();
+	$("#main").show();
+})
