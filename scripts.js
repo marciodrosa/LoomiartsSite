@@ -98,10 +98,10 @@ function applyLanguage(language)
 	}
 }
 
-$(function()
+$(window).on('load', function ()
 {
 	applyLanguage(getLanguageToBeUsed());
 	$(".loading-spinner").hide();
 	$("#navbar").show();
 	$("#main").show();
-})
+});
