@@ -1,21 +1,60 @@
 body {
   padding-top: 5rem;
 }
+h4 {
+  color: #383838;
+}
 h1 {
-  padding-top: 3rem;
-  padding-bottom: 1rem;
+  color: #383838;
+}
+.newspaper-body {
+  background-image: url("Images/Background.jpg" );
+  -webkit-box-shadow: 0px 0px 60px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 60px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 60px 0px rgba(0,0,0,0.75);
+}
+.newspaper-section {
+  margin-top: 25px;
+}
+.newspaper-text {
+  font-weight: bold;
+  color: #383838;
+}
+.newspaper-horizontal-line {
+  background-image: url("Images/DarkBackground.jpg");
+  width: 100%;
+  height: 2px;
+}
+.newspaper-horizontal-line-medium {
+  background-image: url("Images/DarkBackground.jpg");
+  width: 35%;
+  height: 2px;
+  margin: auto;
+}
+.newspaper-horizontal-line-space {
+  height: 5px;
+}
+.newspaper-dark-box {
+  background-image: url("Images/DarkBackground.jpg");
+}
+.newspaper-dark-box > h4 {
+  color: #C6C6C6;
+  padding: 5px;
+}
+.newspaper-bordered-box {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #383838;
+}
+.shadow {
+  -webkit-box-shadow: 0px 0px 17px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 17px -2px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 17px -2px rgba(0,0,0,0.75);
 }
 .loomiarts-about {
-  padding-top: 3rem;
-  padding-bottom: 5rem;
   text-align: center;
 }
-.loomiarts-about>img {
-  padding-bottom: 5rem;
-}
 .squadron51 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
   text-align: center;
 }
 .squadron51>p {
@@ -26,12 +65,9 @@ h1 {
 }
 .features-list {
   text-align: left;
-}
-.squadron51-about-container {
-  padding-bottom: 3rem;
+  margin: 10px;
 }
 .contact {
-  padding-top: 1rem;
   padding-bottom: 3rem;
   text-align: center;
 }
