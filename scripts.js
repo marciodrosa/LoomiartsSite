@@ -13,7 +13,7 @@ function createPortugueseLanguage()
 			squadron51MainFeaturesHeadlineText:"PRINCIPAIS CARACTERÍSTICAS",
 			squadron51FeatureText1:"&bull; Seis fases, diferentes tipos de ambientes: sobre o oceano, montanhas geladas, cavernas, tempestades e muitos outros",
 			squadron51FeatureText2:"&bull; Quatro diferentes aeronaves pilotadas ao longo do jogo",
-			squadron51FeatureText3:"&bull; Narrativa contada através de cutscenes (filmadas em live-action, como em um filme!) e diálogos entre os pilotos, que podem ser ouvidos durante o gameplay",
+			squadron51FeatureText3:"&bull; Narrativa contada através de cutscenes (filmadas em live-action, como um filme!) e diálogos entre os pilotos, que podem ser ouvidos durante o gameplay",
 			squadron51FeatureText4:"&bull; Multiplayer local cooperativo para dois jogadores",
 			squadron51FeatureText5:"&bull; Previsão de lançamento: primeiro trimestre de 2019.",
 			contactHeadlineText:"CONTATO",
