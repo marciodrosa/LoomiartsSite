@@ -2,34 +2,32 @@ function createPortugueseLanguage()
 {
 	return {
 		strings: {
-			menuItemHomeText:"Início",
-			menuItemSquadron51Text:"Esquadrão 51",
-			menuItemContactText:"Contato",
-			aboutLoomiartsText:"Loomiarts é um estúdio de desenvolvimento de jogos independentes. Em parceria com a Fehorama Filmes, a Kiko Ferraz Studios e a Abóbora Filmes, estamos desenvolvendo o nosso primeiro projeto: o ESQUADRÃO 51, um shoot'em up com estética de filmes de ficção científica dos anos 51 e sequências em live-action (FMV) com previsão de lançamento para o primeiro trimestre de 2019.",
-			squadron51BannerImage:"Images/Squadron51BannerSitePT.png",
-			squadron51HeadlineText:"ALIENÍGENAS DESCOBREM A TERRA!",
-			squadron51Text1:"Junte-se ao ESQUADRÃO 51 e lute contra os inimigos extraterrestres!",
-			squadron51Text2:"ESQUADRÃO 51 é um SHMUP que coloca o jogador na pele da Tenente Kaya em batalhas nos céus de todo o planeta! Jogue como se estivesse em uma autêntica ficção científica dos anos 50!",
-			squadron51MainFeaturesHeadlineText:"PRINCIPAIS CARACTERÍSTICAS",
-			squadron51FeatureText1:"&bull; Seis fases, diferentes tipos de ambientes: sobre o oceano, montanhas geladas, cavernas, tempestades e muitos outros",
-			squadron51FeatureText2:"&bull; Quatro diferentes aeronaves pilotadas ao longo do jogo",
-			squadron51FeatureText3:"&bull; Narrativa contada através de cutscenes (filmadas em live-action, como um filme!) e diálogos entre os pilotos, que podem ser ouvidos durante o gameplay",
-			squadron51FeatureText4:"&bull; Multiplayer local cooperativo para dois jogadores",
-			squadron51FeatureText5:"&bull; Previsão de lançamento: primeiro trimestre de 2019.",
-			contactHeadlineText:"CONTATO",
-			contactEmailText:"Para entrar em contato com a Loomiarts, envie um e-mail para:",
-			contactEmail:"contato@loomiarts.com",
-			downloadPresskitText:"Clique no botão abaixo para acessar o press kit do jogo Esquadrão 51:",
-			contactFacebookText:"Curta as nossas páginas no Facebook:",
-			contactSquadron51FacebookButton:"Esquadrão 51",
-			contactTwitterText:"Siga a Loomiarts no Twitter:",
-			contactYoutubeText:"Inscreva-se no canal do Youtube da Loomiarts:"
+			pressKitTitle:"PRESS KIT ESQUADRÃO 51",
+			internationalTitleLabel:"Título internacional",
+			originalTitleLabel:"Título original",
+			publisherAndDeveloperLabel:"Publisher e desenvolvedora",
+			publisherAndDeveloperInfoText:"São Leopoldo, RS, Brasil\nloomiarts.com\nfacebook/loomiarts\ntwitter/loomiarts\ncontato@loomiarts.com",
+			synopsisLabel:"Sinopse",
+			synopsisText:"Há algumas décadas, a Terra foi descoberta por alienígenas. Após o primeiro contato com os seres humanos, os extraterrestres logo se instalaram por todo o planeta, trazendo muitas promessas de progresso e modernidade. No entanto, a relação logo se mostrou opressora e violenta. Surge então o grupo antiextraterrestre Esquadrão 51, que combate a opressão alienígena em batalhas aéreas pelos céus de todo o mundo.",
+			styleLabel:"Gênero",
+			styleText:"SHMUP",
+			platformsLabel:"Plataformas",
+			releaseDateLabel:"Lançamento",
+			mainFeaturesLabel:"Principais características",
+			mainFeaturesText1:"Seis fases em variados ambientes: alto-mar, neve, floresta etc.",
+			mainFeaturesText2:"Estética audiovisual que remete a filmes antigos de ficção científica de discos voadores e monstros",
+			mainFeaturesText3:"Quatro tipos de aviões para controlar (de acordo com a fase)",
+			mainFeaturesText4:"Multiplayer local para dois jogadores (cooperativo)",
+			mainFeaturesText5:"Narrativa contada através de cutscenes em FMV e diálogos durante o gameplay (conversas entre os pilotos, via rádio) (dublados em português)",
+			awardsLabel:"Premiações",
+			awardsText1:"BIG Festival 2017: Melhor Arte (finalista), Melhor Jogo Brasileiro (finalista)",
+			awardsText2:"Festival de Jogos do SBGames 2017: Melhor Visual (vencedor), Melhor Áudio (finalista), Melhor Tecnologia (finalista)",
+			inGameScreenshotsLabel:"Screenshots do jogo",
+			inGameScreenshotsInfoLabel:"(Botão direito do mouse > \"Salvar imagem como...\" para baixar a imagem em alta resolução)",
+			logosAndPromotionalImagesLabel:"Logos e imagens promocionais",
+			fmvProductionStillsLabel:"Stills das filmagens das sequências em FMV",
 		},
 		images: {
-			squadron51BannerImage: {
-				src:"Images/BannerSitePT.jpg",
-				alt:"Logo do jogo Esquadrão 51"
-			}
 		}
 	};
 }
@@ -38,34 +36,32 @@ function createEnglishLanguage()
 {
 	return {
 		strings: {
-			menuItemHomeText:"Home",
-			menuItemSquadron51Text:"Squadron 51",
-			menuItemContactText:"Contact",
-			aboutLoomiartsText:"Loomiarts is an indie game studio. In partnership with Fehorama Filmes, Kiko Ferraz Studios and Abóbora Filmes, we are working on our first project: SQUADRON 51, a shoot'em up with a 50's sci-fi movies' aesthetics and live-action cinematics (FMV) with a release date schedule to first quarter of 2019.",
-			squadron51BannerImage:"Images/Squadron51BannerSiteEN.png",
-			squadron51HeadlineText:"THE ALIENS DISCOVER EARTH!",
-			squadron51Text1:"Join the SQUADRON 51 and fight against extraterrestrial enemies!",
-			squadron51Text2:"SQUADRON 51 is a SHMUP game where the player plays as Lieutenant Kaya in aircraft battles all around the world! Play as you were in an authentic sci-fi movie from the fifties!",
-			squadron51MainFeaturesHeadlineText:"MAIN FEATURES",
-			squadron51FeatureText1:"&bull; Six levels, many kinds of environments: above the ocean, glacial montains, caves, storms and many others",
-			squadron51FeatureText2:"&bull; Four different aircrafts to play along the game",
-			squadron51FeatureText3:"&bull; Story that is told through cutscenes (FMV sequences, like a movie!) and dialogues between the pilots during gameplay",
-			squadron51FeatureText4:"&bull; Local and cooperative multiplayer mode for two players",
-			squadron51FeatureText5:"&bull; Target release date: first quarter of 2019",
-			contactHeadlineText:"CONTACT",
-			contactEmailText:"To get in touch with Loomiarts, please send an e-mail to:",
-			contactEmail:"contact@loomiarts.com",
-			downloadPresskitText:"Click the button below to access the Squadron 51 press kit:",
-			contactFacebookText:"Follow our pages on Facebook:",
-			contactSquadron51FacebookButton:"Squadron 51",
-			contactTwitterText:"Follow Loomiarts on Twitter:",
-			contactYoutubeText:"Subscribe to Loomiarts Youtube channel:"
+			pressKitTitle:"SQUADRON 51 PRESS KIT",
+			internationalTitleLabel:"International title",
+			originalTitleLabel:"Original title (portuguese)",
+			publisherAndDeveloperLabel:"Publisher and developer",
+			publisherAndDeveloperInfoText:"São Leopoldo, RS, Brazil\nloomiarts.com\nfacebook/loomiarts\ntwitter/loomiarts\ncontact@loomiarts.com",
+			synopsisLabel:"Synopsis",
+			synopsisText:"Decades ago, Earth was discovered by aliens. After the first encounter with the human beings, the extraterrestrials soon arrived by all over the planet, bring with them a lot of promises of progress and modernity. However, the relationship soon became oppressor and violent. Then, the antiextraterrestrial group Squadron 51 arrives, fighting the alien oppresion in aircraft battles all around the world.",
+			styleLabel:"Style",
+			styleText:"SHMUP",
+			platformsLabel:"Platforms",
+			releaseDateLabel:"Release date",
+			mainFeaturesLabel:"Main features",
+			mainFeaturesText1:"Six levels, many kinds of environments: above the ocean, glacial montains, caves, storms and others",
+			mainFeaturesText2:"Sound and graphics that refer to old sci-fi movies from the fifties, including flying saucers and monsters",
+			mainFeaturesText3:"Four different aircrafts to play along the game",
+			mainFeaturesText4:"Local multiplayer mode for two players (cooperative)",
+			mainFeaturesText5:"Story that is told through FMV cutscenes and dialogues between the pilots during gameplay",
+			awardsLabel:"Awards",
+			awardsText1:"BIG Festival 2017: Best Arte (finalist), Best Brazilian Game (finalist)",
+			awardsText2:"SBGames 2017: Best Graphics (winner), Best Sound (finalist), Best Technology (finalist)",
+			inGameScreenshotsLabel:"In-game screenshots",
+			inGameScreenshotsInfoLabel:"(Right click > \"Save image as...\" to download high resolution images)",
+			logosAndPromotionalImagesLabel:"Logos and promotional images",
+			fmvProductionStillsLabel:"FMV production stills",
 		},
 		images: {
-			squadron51BannerImage: {
-				src:"Images/BannerSiteEN.jpg",
-				alt:"Squadron 51 game logo"
-			}
 		}
 	};
 }
@@ -87,7 +83,7 @@ function applyLanguage(language)
 	for (var key in language.strings)
 	{
 		var str = language.strings[key];
-		$("#" + key).html(str);
+		$("#" + key).text(str);
 	}
 	for (var key in language.images)
 	{
