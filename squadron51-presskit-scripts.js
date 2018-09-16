@@ -69,4 +69,6 @@ function englishDictionary()
 $(window).on('load', function ()
 {
 	applyAppropriateLanguage(portugueseDictionary, englishDictionary)
+	$(".loading-spinner").hide();
+	$("#main").show();
 });
