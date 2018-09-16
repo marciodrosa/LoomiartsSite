@@ -1,4 +1,4 @@
-function createPortugueseLanguage()
+function portugueseDictionary()
 {
 	return {
 		strings: {
@@ -11,11 +11,11 @@ function createPortugueseLanguage()
 			squadron51Text1:"Junte-se ao ESQUADRÃO 51 e lute contra os inimigos extraterrestres!",
 			squadron51Text2:"ESQUADRÃO 51 é um SHMUP que coloca o jogador na pele da Tenente Kaya em batalhas nos céus de todo o planeta! Jogue como se estivesse em uma autêntica ficção científica dos anos 50!",
 			squadron51MainFeaturesHeadlineText:"PRINCIPAIS CARACTERÍSTICAS",
-			squadron51FeatureText1:"&bull; Seis fases, diferentes tipos de ambientes: sobre o oceano, montanhas geladas, cavernas, tempestades e muitos outros",
-			squadron51FeatureText2:"&bull; Quatro diferentes aeronaves pilotadas ao longo do jogo",
-			squadron51FeatureText3:"&bull; Narrativa contada através de cutscenes (filmadas em live-action, como um filme!) e diálogos entre os pilotos, que podem ser ouvidos durante o gameplay",
-			squadron51FeatureText4:"&bull; Multiplayer local cooperativo para dois jogadores",
-			squadron51FeatureText5:"&bull; Previsão de lançamento: primeiro trimestre de 2019.",
+			squadron51FeatureText1:"• Seis fases, diferentes tipos de ambientes: sobre o oceano, montanhas geladas, cavernas, tempestades e muitos outros",
+			squadron51FeatureText2:"• Quatro diferentes aeronaves pilotadas ao longo do jogo",
+			squadron51FeatureText3:"• Narrativa contada através de cutscenes (filmadas em live-action, como um filme!) e diálogos entre os pilotos, que podem ser ouvidos durante o gameplay",
+			squadron51FeatureText4:"• Multiplayer local cooperativo para dois jogadores",
+			squadron51FeatureText5:"• Previsão de lançamento: primeiro trimestre de 2019.",
 			contactHeadlineText:"CONTATO",
 			contactEmailText:"Para entrar em contato com a Loomiarts, envie um e-mail para:",
 			contactEmail:"contato@loomiarts.com",
@@ -34,7 +34,7 @@ function createPortugueseLanguage()
 	};
 }
 
-function createEnglishLanguage()
+function englishDictionary()
 {
 	return {
 		strings: {
@@ -47,11 +47,11 @@ function createEnglishLanguage()
 			squadron51Text1:"Join the SQUADRON 51 and fight against extraterrestrial enemies!",
 			squadron51Text2:"SQUADRON 51 is a SHMUP game where the player plays as Lieutenant Kaya in aircraft battles all around the world! Play as you were in an authentic sci-fi movie from the fifties!",
 			squadron51MainFeaturesHeadlineText:"MAIN FEATURES",
-			squadron51FeatureText1:"&bull; Six levels, many kinds of environments: above the ocean, glacial montains, caves, storms and many others",
-			squadron51FeatureText2:"&bull; Four different aircrafts to play along the game",
-			squadron51FeatureText3:"&bull; Story that is told through cutscenes (FMV sequences, like a movie!) and dialogues between the pilots during gameplay",
-			squadron51FeatureText4:"&bull; Local and cooperative multiplayer mode for two players",
-			squadron51FeatureText5:"&bull; Target release date: first quarter of 2019",
+			squadron51FeatureText1:"• Six levels, many kinds of environments: above the ocean, glacial montains, caves, storms and many others",
+			squadron51FeatureText2:"• Four different aircrafts to play along the game",
+			squadron51FeatureText3:"• Story that is told through cutscenes (FMV sequences, like a movie!) and dialogues between the pilots during gameplay",
+			squadron51FeatureText4:"• Local and cooperative multiplayer mode for two players",
+			squadron51FeatureText5:"• Target release date: first quarter of 2019",
 			contactHeadlineText:"CONTACT",
 			contactEmailText:"To get in touch with Loomiarts, please send an e-mail to:",
 			contactEmail:"contact@loomiarts.com",
@@ -70,37 +70,9 @@ function createEnglishLanguage()
 	};
 }
 
-
-
-function getLanguageToBeUsed()
-{
-	if (document.location.search == "?lang=en")
-		return createEnglishLanguage();
-	else if (navigator.language.startsWith("pt") || document.location.search == "?lang=pt")
-		return createPortugueseLanguage();
-	else
-		return createEnglishLanguage();
-}
-
-function applyLanguage(language)
-{
-	for (var key in language.strings)
-	{
-		var str = language.strings[key];
-		$("#" + key).html(str);
-	}
-	for (var key in language.images)
-	{
-		var imageData = language.images[key];
-		var images = $("#" + key);
-		images.attr("src", imageData.src);
-		images.attr("alt", imageData.alt);
-	}
-}
-
 $(window).on('load', function ()
 {
-	applyLanguage(getLanguageToBeUsed());
+	applyAppropriateLanguage(portugueseDictionary, englishDictionary)
 	$(".loading-spinner").hide();
 	$("#navbar").show();
 	$("#main").show();

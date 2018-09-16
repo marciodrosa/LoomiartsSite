@@ -1,4 +1,4 @@
-function createPortugueseLanguage()
+function portugueseDictionary()
 {
 	return {
 		strings: {
@@ -32,7 +32,7 @@ function createPortugueseLanguage()
 	};
 }
 
-function createEnglishLanguage()
+function englishDictionary()
 {
 	return {
 		strings: {
@@ -66,35 +66,7 @@ function createEnglishLanguage()
 	};
 }
 
-
-
-function getLanguageToBeUsed()
-{
-	if (document.location.search == "?lang=en")
-		return createEnglishLanguage();
-	else if (navigator.language.startsWith("pt") || document.location.search == "?lang=pt")
-		return createPortugueseLanguage();
-	else
-		return createEnglishLanguage();
-}
-
-function applyLanguage(language)
-{
-	for (var key in language.strings)
-	{
-		var str = language.strings[key];
-		$("#" + key).text(str);
-	}
-	for (var key in language.images)
-	{
-		var imageData = language.images[key];
-		var images = $("#" + key);
-		images.attr("src", imageData.src);
-		images.attr("alt", imageData.alt);
-	}
-}
-
 $(window).on('load', function ()
 {
-	applyLanguage(getLanguageToBeUsed());
+	applyAppropriateLanguage(portugueseDictionary, englishDictionary)
 });
