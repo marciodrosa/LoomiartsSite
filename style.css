@@ -68,6 +68,11 @@ h1 {
   text-align: left;
   margin: 10px;
 }
+.squadron51-ishiro-background {
+  background-image:url(Images/Ishiro.png);
+  background-position:right bottom;
+  background-repeat:no-repeat;
+}
 .newspaper-text {
   color: #383838;
   font-size: 1rem;
