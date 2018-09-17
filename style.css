@@ -73,6 +73,11 @@ h1 {
   background-position:right bottom;
   background-repeat:no-repeat;
 }
+.squadron51-aircrafts-background {
+  background-image:url(Images/AircraftsBackground.png);
+  background-position:left bottom;
+  background-repeat:no-repeat;
+}
 .newspaper-text {
   color: #383838;
   font-size: 1rem;
