@@ -5,7 +5,7 @@ function portugueseDictionary()
 			menuItemHomeText:"Início",
 			menuItemSquadron51Text:"Esquadrão 51",
 			menuItemContactText:"Contato",
-			aboutLoomiartsText:"Loomiarts é um estúdio de desenvolvimento de jogos independentes. Em parceria com a Fehorama Filmes, a Kiko Ferraz Studios e a Abóbora Filmes, estamos desenvolvendo o nosso primeiro projeto: o ESQUADRÃO 51, um shoot'em up com estética de filmes de ficção científica dos anos 51 e sequências em live-action (FMV) com previsão de lançamento para 2019.",
+			aboutLoomiartsText:"Loomiarts é um estúdio de desenvolvimento de jogos independentes. Em parceria com a Fehorama Filmes, a Kiko Ferraz Studios e a Abóbora Filmes, estamos desenvolvendo o nosso primeiro projeto: o ESQUADRÃO 51, um shoot'em up com estética de filmes de ficção científica dos anos 50 e sequências em live-action (FMV) com previsão de lançamento para 2019.",
 			squadron51BannerImage:"Images/Squadron51BannerSitePT.png",
 			squadron51HeadlineText:"ALIENÍGENAS DESCOBREM A TERRA!",
 			squadron51Text1:"Junte-se ao ESQUADRÃO 51 e lute contra os inimigos extraterrestres!",
