@@ -6,6 +6,7 @@ $(function() {
 				menuItemHomeText:"Início",
 				menuItemSquadron51Text:"Esquadrão 51",
 				menuItemContactText:"Contato",
+				menuItemPressKitText:"Press Kit",
 			},
 			images: {
 			}
@@ -19,6 +20,7 @@ $(function() {
 				menuItemHomeText:"Home",
 				menuItemSquadron51Text:"Squadron 51",
 				menuItemContactText:"Contact",
+				menuItemPressKitText:"Press Kit",
 			},
 			images: {
 			}
