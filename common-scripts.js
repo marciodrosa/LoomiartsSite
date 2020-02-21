@@ -3,12 +3,12 @@ function applyLanguage(language)
 	for (var key in language.strings)
 	{
 		var str = language.strings[key];
-		$("#" + key).text(str);
+		$("[data-loc=\"" + key + "\"]").text(str);
 	}
 	for (var key in language.images)
 	{
 		var imageData = language.images[key];
-		var images = $("#" + key);
+		var images = $("[data-loc=\"" + key + "\"]");
 		images.attr("src", imageData.src);
 		images.attr("alt", imageData.alt);
 	}

@@ -22,35 +22,31 @@
       </a>
     </nav>
 
-    <div class="loading-spinner" width:100% height=100%>
-      <img src="Images/OVNISpinner.gif"></img>
-    </div>
-
-    <main id="main" role="main" class="container" style="display:none;">
+    <main id="main" role="main" class="container">
 
       <div class="jumbotron container-shadow">
 
-        <h1 class="display-4" id="pressKitTitle"></h1>
+        <h1 class="display-4" data-loc="pressKitTitle"></h1>
 
         <hr class="my-4">
         
-        <h6 id="internationalTitleLabel"></h6>
+        <h6 data-loc="internationalTitleLabel"></h6>
         <p>Squadron 51</p>
 
-        <h6 id="originalTitleLabel"></h6>
+        <h6 data-loc="originalTitleLabel"></h6>
         <p>Esquadrão 51</p>
 
-        <h6 id="publisherAndDeveloperLabel"></h6>
+        <h6 data-loc="publisherAndDeveloperLabel"></h6>
         <p>Loomiarts</p>
-        <p id="publisherAndDeveloperInfoText" style="white-space: pre-wrap;"></p>
+        <p data-loc="publisherAndDeveloperInfoText" style="white-space: pre-wrap;"></p>
 
-        <h6 id="synopsisLabel"></h6>
-        <p id="synopsisText"></p>
+        <h6 data-loc="synopsisLabel"></h6>
+        <p data-loc="synopsisText"></p>
 
-        <h6 id="styleLabel"></h6>
-        <p id="styleText"></p>
+        <h6 data-loc="styleLabel"></h6>
+        <p data-loc="styleText"></p>
 
-        <h6 id="platformsLabel"></h6>
+        <h6 data-loc="platformsLabel"></h6>
         <ul>
           <li>Nintendo Switch</li>
           <li>Xbox One</li>
@@ -58,30 +54,30 @@
           <li>Windows</li>
         </ul>
 
-        <h6 id="releaseDateLabel"></h6>
+        <h6 data-loc="releaseDateLabel"></h6>
         <p>2019</p>
 
-        <h6 id="mainFeaturesLabel"></h6>
+        <h6 data-loc="mainFeaturesLabel"></h6>
         <ul>
-          <li id="mainFeaturesText1"></li>
-          <li id="mainFeaturesText2"></li>
-          <li id="mainFeaturesText3"></li>
-          <li id="mainFeaturesText4"></li>
-          <li id="mainFeaturesText5"></li>
+          <li data-loc="mainFeaturesText1"></li>
+          <li data-loc="mainFeaturesText2"></li>
+          <li data-loc="mainFeaturesText3"></li>
+          <li data-loc="mainFeaturesText4"></li>
+          <li data-loc="mainFeaturesText5"></li>
         </ul>
 
-        <h6 id="awardsLabel">Awards</h6>
+        <h6 data-loc="awardsLabel">Awards</h6>
         <ul>
-          <li id="awardsText1"></li>
-          <li id="awardsText2"></li>
+          <li data-loc="awardsText1"></li>
+          <li data-loc="awardsText2"></li>
         </ul>
 
         <h6>Teaser trailer</h6>
         <!--
         <iframe src="https://www.youtube.com/embed/DT3wzSSA81s?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
         !-->
-        <h3 id="inGameScreenshotsLabel"></h3>
-        <p id="inGameScreenshotsInfoLabel"></p>
+        <h3 data-loc="inGameScreenshotsLabel"></h3>
+        <p data-loc="inGameScreenshotsInfoLabel"></p>
         <div class="container">
           <div class="row">
             <div class="col-sm">
@@ -255,7 +251,7 @@
           </div>
         </div>
 
-        <h3 id="logosAndPromotionalImagesLabel"></h3>
+        <h3 data-loc="logosAndPromotionalImagesLabel"></h3>
         <div class="container">
           <div class="row">
             <div class="col-sm">
@@ -271,7 +267,7 @@
           </div>
         </div>
 
-        <h3 id="fmvProductionStillsLabel"></h3>
+        <h3 data-loc="fmvProductionStillsLabel"></h3>
         <div class="container">
           <div class="row">
             <div class="col-sm">
@@ -434,5 +430,6 @@
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="common-scripts.js"></script>
     <script type="text/javascript" src="presskit-scripts.js"></script>
+    <script type="text/javascript" src="presskit-i18n.js"></script>
   </body>
 </html>

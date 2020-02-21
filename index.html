@@ -16,11 +16,7 @@
 
   <body data-spy="scroll" data-target="#navbar" id="home">
 
-    <div class="loading-spinner" width:100% height=100%>
-      <img src="Images/OVNISpinner.gif"></img>
-    </div>
-
-    <nav id="navbar" class="navbar navbar-expand-md navbar-dark bg-primary fixed-top shadow" style="display:none;">
+    <nav id="navbar" class="navbar navbar-expand-md navbar-dark bg-primary fixed-top shadow">
       <a class="navbar-brand" href="#">
         <img src="Images/LoomiartsLogoNavBar.png" height="30" alt="Loomiarts logo">
       </a>
@@ -30,47 +26,47 @@
       <div class="collapse navbar-collapse" id="navbarcollapse">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#home"> <span id="menuItemHomeText"></span> <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#home"> <span data-loc="menuItemHomeText"></span> <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="squadron51.html" id="menuItemSquadron51Text">Squadron 51</a>
+            <a class="nav-link" href="squadron51.html" data-loc="menuItemSquadron51Text"></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contact" id="menuItemContactText">Contact</a>
+            <a class="nav-link" href="#contact" data-loc="menuItemContactText"></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="presskit.html" id="menuItemPressKitText">Press Kit</a>
+            <a class="nav-link" href="presskit.html" data-loc="menuItemPressKitText"></a>
           </li>
         </ul>
       </div>
     </nav>
 
-    <main id="main" role="main" class="container" style="display:none;">
+    <main id="main" role="main" class="container">
 
       <div id="loomiarts-about" class="loomiarts-about">
         <img src="Images/LoomiartsLogoRed.png" style="width:40%;"></img>
-        <p class="lead" id="aboutLoomiartsText"></p>
+        <p class="lead" data-loc="aboutLoomiartsText"></p>
       </div>
 
       <div class="squadron51-container container-shadow-stronger" id="squadron51">
-        <img width="100%" id="squadron51BannerImage" alt="Squadron 51"></img>
+        <img width="100%" data-loc="squadron51BannerImage"></img>
       </div><!-- /.newspaper-body -->
 
       <div class="jumbotron container-shadow" id="contact">
-        <h1 class="display-4" id="contactHeadlineText"></h1>
+        <h1 class="display-4" data-loc="contactHeadlineText"></h1>
         <hr class="my-4">
         <div class="card-deck">
           <div class="card bg-light">
             <div class="card-body">
               <h5 class="card-title">E-mail</h5>
-              <p class="card-text" id="contactEmailText"></p>
-              <a href="mailto:contact@loomiarts.com" class="card-link" id="contactEmail"></a>
+              <p class="card-text" data-loc="contactEmailText"></p>
+              <a href="mailto:contact@loomiarts.com" class="card-link" data-loc="contactEmail"></a>
             </div>
           </div>
           <div class="card bg-light">
             <div class="card-body">
               <h5 class="card-title">Press Kit</h5>
-              <p class="card-text" id="downloadPresskitText"></p>
+              <p class="card-text" data-loc="downloadPresskitText"></p>
               <a href="presskit.html" class="btn btn-primary">Press Kit</a>
             </div>
           </div>
@@ -80,8 +76,8 @@
             <div class="card-body">
               <img class="social-icon" src="Images/Social/fb.png" alt="Facebook">
               <h5 class="card-title">Facebook</h5>
-              <p class="card-text" id="contactFacebookText"></p>
-              <a href="http://www.facebook.com/squadron51" class="btn btn-primary" id="contactSquadron51FacebookButton"></a>
+              <p class="card-text" data-loc="contactFacebookText"></p>
+              <a href="http://www.facebook.com/squadron51" class="btn btn-primary" data-loc="contactSquadron51FacebookButton"></a>
               <a href="http://www.facebook.com/loomiarts" class="btn btn-primary">Loomiarts</a>
             </div>
           </div>
@@ -89,7 +85,7 @@
             <div class="card-body">
               <img class="social-icon" src="Images/Social/tt.png" alt="Twitter">
               <h5 class="card-title">Twitter</h5>
-              <p class="card-text" id="contactTwitterText"></p>
+              <p class="card-text" data-loc="contactTwitterText"></p>
               <a href="https://twitter.com/loomiarts" class="btn btn-primary">@loomiarts</a>
             </div>
           </div>
@@ -97,7 +93,7 @@
             <div class="card-body">
               <img class="social-icon" src="Images/Social/yt.png" alt="Youtube">
               <h5 class="card-title">Youtube</h5>
-              <p class="card-text" id="contactYoutubeText"></p>
+              <p class="card-text" data-loc="contactYoutubeText"></p>
               <a href="https://www.youtube.com/channel/UCSTsJXCSFYo009D0YAtkqSQ" class="btn btn-primary">Loomiarts</a>
             </div>
           </div>
@@ -107,6 +103,7 @@
     </main><!-- /.container -->
 
     <script src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="index-i18n.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="common-scripts.js"></script>
