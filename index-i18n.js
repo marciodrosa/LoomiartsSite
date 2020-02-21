@@ -3,7 +3,7 @@ $(function() {
 	{
 		return {
 			strings: {
-				aboutLoomiartsText:"Loomiarts é um estúdio de desenvolvimento de jogos independentes. Em parceria com a Fehorama Filmes, a Kiko Ferraz Studios e a Abóbora Filmes, estamos desenvolvendo o nosso primeiro projeto: o ESQUADRÃO 51, um shoot'em up com estética de filmes de ficção científica dos anos 50 e sequências em live-action (FMV) com previsão de lançamento para 2019.",
+				aboutLoomiartsText:"Loomiarts é um estúdio de desenvolvimento de jogos independentes. Em parceria com a Fehorama Filmes, KF Studios e Abóbora Filmes, estamos desenvolvendo o nosso primeiro projeto: o ESQUADRÃO 51, um shoot'em up com estética de filmes de ficção científica dos anos 50 e sequências em live-action (FMV) com previsão de lançamento para 2019.",
 				contactHeadlineText:"CONTATO",
 				contactEmailText:"Para entrar em contato com a Loomiarts, envie um e-mail para:",
 				contactEmail:"contato@loomiarts.com",
@@ -26,7 +26,7 @@ $(function() {
 	{
 		return {
 			strings: {
-				aboutLoomiartsText:"Loomiarts is an indie game studio. In partnership with Fehorama Filmes, Kiko Ferraz Studios and Abóbora Filmes, we are working on our first project: SQUADRON 51, a shoot'em up with a 50's sci-fi movies' aesthetics and live-action cinematics (FMV) with a release date schedule to 2019.",
+				aboutLoomiartsText:"Loomiarts is an indie game studio. In partnership with Fehorama Filmes, KF Studios and Abóbora Filmes, we are working on our first project: SQUADRON 51, a shoot'em up with a 50's sci-fi movies' aesthetics and live-action cinematics (FMV) with a release date schedule to 2019.",
 				contactHeadlineText:"CONTACT",
 				contactEmailText:"To get in touch with Loomiarts, please send an e-mail to:",
 				contactEmail:"contact@loomiarts.com",
@@ -44,6 +44,6 @@ $(function() {
 			}
 		};
 	}
-	
+
 	applyAppropriateLanguage(portugueseDictionary, englishDictionary)
 });
