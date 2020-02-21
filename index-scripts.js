@@ -75,3 +75,9 @@ $(window).on('load', function ()
 	$("#navbar").show();
 	$("#main").show();
 });
+
+$(function() {
+	$("#squadron51").click(function() {
+		window.open("squadron51.html", "_self")
+	});
+});
