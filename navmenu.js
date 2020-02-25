@@ -85,4 +85,8 @@ function createNavMenu(navbarId, links) {
 					.attr("href", presskitLink)
 					.attr("data-loc", "menuItemPressKitText")))));
 
+	$("body").attr("data-spy", "scroll").attr("data-target", "#" + navbarId)
+	$('[data-spy="scroll"]').each(function () {
+	  var $spy = $(this).scrollspy('refresh')
+	})
 }

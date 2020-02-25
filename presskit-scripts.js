@@ -1,3 +1,3 @@
 $(function() {
-	createNavMenu("navbar", {});
+	createNavMenu("navbar", {presskit: "#home"});
 });
