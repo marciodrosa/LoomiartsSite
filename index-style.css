@@ -35,6 +35,6 @@ h1 {
   top: 0px;
   padding: 40px;
 }
-.squadron51-container-content p, h5, h6 {
+.squadron51-container-content > p, .squadron51-container-content > h5, .squadron51-container-content > h6 {
   color: #FFFFFF;
 }
