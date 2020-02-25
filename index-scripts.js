@@ -1,12 +1,12 @@
 $(function() {
 	$(".squadron51-container").hover(
 		function() {
-			$(".squadron51-container-content").fadeIn("fast")
-			$(".squadron51-container-rectangle").animate( { width: "300px" }, "fast");
+			$(".squadron51-container-content").stop().fadeIn({duration: "slow", queue: true});
+			$(".squadron51-container-rectangle").stop().animate({width: "300px"}, { duration: "fast", queue: true});
 		},
 		function() {
-			$(".squadron51-container-content").fadeOut("fast")
-			$(".squadron51-container-rectangle").animate( { width: "0px" });
+			$(".squadron51-container-content").stop().fadeOut({duration: "fast", queue: true});
+			$(".squadron51-container-rectangle").stop().animate({width: "0px"}, { queue: true});
 		}
 	);
 });
