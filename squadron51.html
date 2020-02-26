@@ -22,9 +22,9 @@
 
       <div class="first-strip">
         <div class="first-strip-text">
-          <h1 class="display-2 mb-5">ELES DESCOBRIRAM A TERRA</h1>
-          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac quam ex. In cursus justo ex, id varius felis cursus vitae. Vivamus non libero vitae felis aliquet elementum. Nam scelerisque id eros quis fringilla. Aliquam in volutpat est. Sed ullamcorper orci eget pellentesque efficitur. Mauris elit est, venenatis non euismod ac, ullamcorper a mi. Morbi scelerisque odio in leo elementum, et vehicula dui ornare. Mauris rutrum euismod enim vel rhoncus. Aliquam ornare efficitur facilisis.</p>
-          <p class="lead">Sed et urna eu enim dignissim porta sit amet vitae turpis. Vestibulum eu cursus nibh, ac ultricies justo. Cras metus lorem, lacinia quis nulla eget, tristique tempor massa. In hac habitasse platea dictumst. Nunc non sapien non augue malesuada feugiat congue gravida est. Quisque massa sem, aliquet quis libero non, molestie dapibus nisi. In elit mi, convallis commodo placerat quis, auctor eget nunc.</p>
+          <h1 class="display-2 mb-5" data-loc="firstStripTitle"></h1>
+          <p class="lead" data-loc="firstStripText1"></p>
+          <p class="lead" data-loc="firstStripText2"></p>
         </div>
       </div>
 
@@ -33,36 +33,29 @@
           <div class="card bg-light mb-3">
             <div class="card-body">
               <img width="100" height="100" src="Images/squadron51/small-flying-saucer.png"></img>
-              <h5 class="card-title">Light card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <h5 class="card-title" data-loc="cardGameplayTitle"></h5>
+              <p class="card-text" data-loc="cardGameplayText"></p>
             </div>
           </div>
           <div class="card bg-light mb-3">
             <div class="card-body">
               <img width="100" height="100" src="Images/squadron51/small-flying-saucer.png"></img>
-              <h5 class="card-title">Light card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <h5 class="card-title" data-loc="cardLevelsTitle"></h5>
+              <p class="card-text" data-loc="cardLevelsText"></p>
             </div>
           </div>
           <div class="card bg-light mb-3">
             <div class="card-body">
               <img width="100" height="100" src="Images/squadron51/small-flying-saucer.png"></img>
-              <h5 class="card-title">Light card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <h5 class="card-title" data-loc="cardMovieTitle"></h5>
+              <p class="card-text" data-loc="cardMovieText"></p>
             </div>
           </div>
           <div class="card bg-light mb-3">
             <div class="card-body">
               <img width="100" height="100" src="Images/squadron51/small-flying-saucer.png"></img>
-              <h5 class="card-title">Light card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-          <div class="card bg-light mb-3">
-            <div class="card-body">
-              <img width="100" height="100" src="Images/squadron51/small-flying-saucer.png"></img>
-              <h5 class="card-title">Light card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <h5 class="card-title" data-loc="cardMultiplayerTitle"></h5>
+              <p class="card-text" data-loc="cardMultiplayerText"></p>
             </div>
           </div>
         </div>
@@ -72,7 +65,7 @@
         <grid class="row align-items-center h-100">
           <div class="col">
             <div class="trailer-strip-text">
-              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac quam ex. In cursus justo ex, id varius felis cursus vitae. Vivamus non libero vitae felis aliquet elementum. Nam scelerisque id eros quis fringilla. Aliquam in volutpat est. Sed ullamcorper orci eget pellentesque efficitur. Mauris elit est, venenatis non euismod ac, ullamcorper a mi.</p>
+              <p class="lead" data-loc="trailerStripText"></p>
               <img class="trailer-strip-star" src="Images/squadron51/squadron-logo.png"></img>
             </div>
           </div>
@@ -88,7 +81,7 @@
 
       <div class="row galery-strip">
         <div class="col-md-auto">
-          <h1 class="display-4 m-5">Galeria</h1>
+          <h1 class="display-4 m-5" data-loc="galleryTitle"></h1>
         </div>
         <div class="col">
           <div id="screenshotsCarousel" class="carousel slide shadow" data-ride="carousel" data-interval="false">
@@ -139,7 +132,7 @@
       <div>
         <div class="jumbotron jumbotron-fluid mb-0">
           <div class="container text-center">
-            <h1 class="display-4 text-center text-dark">Esquadrão 51 é uma coprodução entre</h1>
+            <h1 class="display-4 text-center text-dark" data-loc="coproductionText"></h1>
             <a href="index.html">
               <img src="Images/squadron51/logo-loomiarts.png" alt="Loomiarts">
             </a>
@@ -157,12 +150,12 @@
       </div>
 
       <div class="platforms-strip">
-        <h1 class="display-4 text-center">Em breve para</h1>
+        <h1 class="display-4 text-center" data-loc="comingSoon"></h1>
         <div class="row pt-5">
-          <div class="col text-center"><img src="Images/squadron51/platform-xbox.png"></img></div>
-          <div class="col text-center"><img src="Images/squadron51/platform-ps4.png"></img></div>
-          <div class="col text-center"><img src="Images/squadron51/platform-switch.png"></img></div>
-          <div class="col text-center"><img src="Images/squadron51/platform-windows.png"></img></div>
+          <div class="col text-center"><img src="Images/squadron51/platform-xbox.png" alt="Xbox One"></img></div>
+          <div class="col text-center"><img src="Images/squadron51/platform-ps4.png" alt="Playstation 4"></img></div>
+          <div class="col text-center"><img src="Images/squadron51/platform-switch.png" alt="Nintendo Switch"></img></div>
+          <div class="col text-center"><img src="Images/squadron51/platform-windows.png" alt="Windows"></img></div>
         </div>
       </div>
 
