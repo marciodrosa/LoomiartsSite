@@ -6,15 +6,12 @@ body {
   background-position: right bottom;
   background-repeat: no-repeat;
 }
-.first-strip h1, .first-strip p {
-  color: #FFFFFF;
-}
-.first-strip-text {
+.first-strip-text-container {
   padding-bottom: 5rem;
   padding-right: 5rem;
   padding-left: 5rem;
   padding-top: 8rem;
-  max-width: 65%;
+  max-width: 1200px;
 }
 .features-strip {
   text-align: center;
