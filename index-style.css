@@ -1,0 +1,40 @@
+body {
+  padding-top: 5rem;
+}
+h4 {
+  color: #383838;
+}
+h1 {
+  color: #383838;
+}
+.social-icon {
+  margin: 12px;
+  width: 50px;
+}
+.loomiarts-about {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.loomiarts-about > p {
+  margin-top: 30px;
+}
+.squadron51-container {
+  position: relative;
+  margin-bottom: 40px;
+}
+.squadron51-container-rectangle {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 100%;
+}
+.squadron51-container-content {
+  position: absolute;
+  width: 300px;
+  left: 0px;
+  top: 0px;
+  padding: 40px;
+}
+.squadron51-container-content > p, .squadron51-container-content > h5, .squadron51-container-content > h6 {
+  color: #FFFFFF;
+}
