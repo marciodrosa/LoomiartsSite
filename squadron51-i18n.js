@@ -17,6 +17,7 @@ $(function() {
 				trailerStripText: "Junte-se à causa rebelde! No papel da TENENTE KAYA, enfrente discos voadores, caças extraterrestres e monstros em a batalhas nos céus dos anos 50! Lembre-se: o futuro da Terra está em suas mãos!",
 				galleryTitle: "Galeria",
 				coproductionText: "Esquadrão 51 é uma coprodução entre",
+				publishedByText: "Publicado por",
 				comingSoon: "Em breve para",
 			},
 			images: {
@@ -42,6 +43,7 @@ $(function() {
 				trailerStripText: "Join the rebel cause! As LIEUTENANT KAYA, face flying saucers, alien fighters and monsters in battles in the skies of the fifties! Remember: the future of the Earth is in your hands!",
 				galleryTitle: "Gallery",
 				coproductionText: "Squadron 51 is a co-production between",
+				publishedByText: "Published by",
 				comingSoon: "Coming soon for",
 			},
 			images: {
