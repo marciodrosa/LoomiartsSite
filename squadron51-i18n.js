@@ -19,6 +19,7 @@ $(function() {
 				coproductionText: "Esquadrão 51 é uma coprodução entre",
 				publishedByText: "Publicado por",
 				comingSoon: "Em breve para",
+				seeMore: "Veja mais:",
 			},
 			images: {
 			}
@@ -45,6 +46,7 @@ $(function() {
 				coproductionText: "Squadron 51 is a co-production between",
 				publishedByText: "Published by",
 				comingSoon: "Coming soon for",
+				seeMore: "See more:",
 			},
 			images: {
 			}
