@@ -3,10 +3,10 @@ $(function() {
 	{
 		return {
 			strings: {
-				aboutLoomiartsText:"Loomiarts é um estúdio de desenvolvimento de jogos independentes. Em parceria com a Fehorama Filmes, KF Studios e Abóbora Filmes, estamos desenvolvendo o nosso primeiro projeto: o ESQUADRÃO 51, um shoot'em up com estética de filmes de ficção científica dos anos 50 e sequências em live-action (FMV).",
+				aboutLoomiartsText:"Loomiarts é um estúdio de desenvolvimento de jogos. Em parceria com a Fehorama Filmes, estamos desenvolvendo o nosso primeiro projeto: o ESQUADRÃO 51, um shoot'em up com estética de filmes de ficção científica dos anos 50 que será publicado em breve pela WhisperGames e Assemble Interactive.",
 				squadron51Title:"ESQUADRÃO 51",
 				squadron51ComingSoon:"Em breve",
-				squadron51Text:"Eles vieram do espaço sideral e estão entre nós! Neste SHMUP clássico diretamente dos anos 50, junte-se ao ESQUADRÃO 51 e lute contra as maquiavélicas forças alienígenas!",
+				squadron51Text:"Esquadrão 51 é um shoot'em up para PC e consoles com estética de filmes de ficção científica dos anos 50.\n\nDesenvolvido por Loomiarts e Fehorama Filmes e publicado por WhisperGames e Assemble Interactive.\n\nEm breve para PC, Xbox One, PlayStation 4 e Nintendo Switch.",
 				contactHeadlineText:"CONTATO",
 				contactEmailText:"Para entrar em contato com a Loomiarts, envie um e-mail para:",
 				contactEmail:"contato@loomiarts.com",
@@ -29,10 +29,10 @@ $(function() {
 	{
 		return {
 			strings: {
-				aboutLoomiartsText:"Loomiarts is an indie game studio. In partnership with Fehorama Filmes, KF Studios and Abóbora Filmes, we are working on our first project: SQUADRON 51, a shoot'em up with a 50's sci-fi movies' aesthetics and live-action cinematics (FMV).",
+				aboutLoomiartsText:"Loomiarts is a game studio. In partnership with Fehorama Filmes, we are currently developing our first project: SQUADRON 51, a shoot'em up with aesthetics directly inspired by sci-fi movies from the fifties which will be published soon by WhisperGames and Assemble Interactive.",
 				squadron51Title:"SQUADRON 51",
 				squadron51ComingSoon:"Coming soon",
-				squadron51Text:"They came from outer space and are among us! In this classic SHMUP directly from the fifties, join the SQUADRON 51 and fight against the evil extraterrestrial forces!",
+				squadron51Text:"Squadron 51 is a shoot'em up for PC and consoles with aesthetics directly inspired by sci-fi movies from the fifties.\n\nDeveloped by Loomiarts and Fehorama Filmes and published by WhisperGames and Assemble Interactive.\n\nComing soon for PC, Xbox One, PlayStation 4 and Nintendo Switch.",
 				contactHeadlineText:"CONTACT",
 				contactEmailText:"To get in touch with Loomiarts, please send an e-mail to:",
 				contactEmail:"contact@loomiarts.com",
