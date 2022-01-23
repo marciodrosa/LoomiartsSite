@@ -21,6 +21,7 @@ $(function() {
 			showingSquadron51Info = true;
 			showSquadron51Menu()
 			$("#squadron51-container .game-info-content").stop().fadeIn({duration: "fast", queue: true});
+			$("#squadron51-info-button").attr("data-active", true);
 		}
 	}
 
@@ -28,6 +29,7 @@ $(function() {
 		if (showingSquadron51Info) {
 			showingSquadron51Info = false;
 			$("#squadron51-container .game-info-content").stop().fadeOut({duration: "fast", queue: true});
+			$("#squadron51-info-button").attr("data-active", false);
 		}
 	}
 
