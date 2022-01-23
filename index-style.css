@@ -54,6 +54,8 @@ h1 {
   opacity: 75%;
   cursor: pointer;
 }
+.game-menu-item-info {
+}
 .game-menu-item:hover, .game-menu-item[data-active="true"] {
   opacity: 100%;
 }
