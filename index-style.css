@@ -44,6 +44,7 @@ h1 {
 .game-menu-content {
   position:relative;
   display: flex;
+  flex-wrap: wrap;
 }
 .game-menu-content > p, .game-menu-content > h5, .game-menu-content > h6 {
   color: #FFFFFF;
