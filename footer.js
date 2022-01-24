@@ -14,7 +14,7 @@ function createFooter(footerId) {
 				.append($(document.createElement("p"))
 					.attr("data-loc", "menuItemGamesText"))
 				.append($(document.createElement("a"))
-					.attr("href", "squadron51.html")
+					.attr("href", "index.html#game-squadron51")
 					.append($(document.createElement("p"))
 						.addClass("footer-sublink")
 						.attr("data-loc", "menuItemSquadron51Text")))

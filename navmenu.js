@@ -1,7 +1,7 @@
 function createNavMenu(navbarId, links) {
 	var loomiartsLogoLink = links.loomiartsLogo || "index.html";
 	var homeLink = links.home || "index.html";
-	var squadron51Link = links.squadron51 || "squadron51.html";
+	var squadron51Link = links.squadron51 || "index.html#game-squadron51";
 	var contactLink = links.contact || "index.html#contact";
 	var presskitLink = links.presskit || "presskit.html";
 
