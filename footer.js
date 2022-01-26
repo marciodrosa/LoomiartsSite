@@ -19,7 +19,7 @@ function createFooter(footerId) {
 						.addClass("footer-sublink")
 						.attr("data-loc", "menuItemSquadron51Text")))
 				.append($(document.createElement("a"))
-					.attr("href", "presskit.html")
+					.attr("href", "https://drive.google.com/drive/folders/1anMe8qc5ht1gljL7FQfc5T7QZl36vWcy?usp=sharing")
 					.append($(document.createElement("p"))
 						.attr("data-loc", "menuItemPressKitText"))))
 			.append($(document.createElement("div"))

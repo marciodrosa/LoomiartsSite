@@ -3,7 +3,7 @@ function createNavMenu(navbarId, links) {
 	var homeLink = links.home || "index.html";
 	var squadron51Link = links.squadron51 || "index.html#game-squadron51";
 	var contactLink = links.contact || "index.html#contact";
-	var presskitLink = links.presskit || "presskit.html";
+	var presskitLink = links.presskit || "https://drive.google.com/drive/folders/1anMe8qc5ht1gljL7FQfc5T7QZl36vWcy?usp=sharing";
 
 	var navbar = $("#" + navbarId);
 	navbar.addClass("navbar").addClass("navbar-expand-md").addClass("navbar-dark").addClass("bg-primary").addClass("fixed-top").addClass("shadow");
