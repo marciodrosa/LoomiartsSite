@@ -3,23 +3,23 @@ $(function() {
 	{
 		return {
 			strings: {
-				aboutLoomiartsText:"Loomiarts é um estúdio de desenvolvimento de jogos. Em parceria com a Fehorama Filmes, estamos desenvolvendo o nosso primeiro projeto: o ESQUADRÃO 51, um shoot'em up com estética de filmes de ficção científica dos anos 50 que será publicado em breve pela WhisperGames e Assemble Entertainment.",
-				squadron51Title:"ESQUADRÃO 51",
+				aboutLoomiartsText:"Loomiarts é um estúdio de desenvolvimento de jogos. Em parceria com a Fehorama Filmes, estamos desenvolvendo o nosso primeiro projeto: o ESQUADRÃO 51 CONTRA DOS DISCOS VOADORES, um shoot'em up com estética de filmes de ficção científica dos anos 50 que será publicado em breve pela WhisperGames e Assemble Entertainment.",
+				squadron51Title:"ESQUADRÃO 51 CONTRA DOS DISCOS VOADORES",
 				squadron51ComingSoon:"Em breve",
-				squadron51Text:"Esquadrão 51 é um shoot'em up para PC e consoles com estética de filmes de ficção científica dos anos 50.\n\nDesenvolvido por Loomiarts e Fehorama Filmes e publicado por WhisperGames e Assemble Entertainment.\n\nEm breve para PC, Xbox One, PlayStation 4 e Nintendo Switch.",
+				squadron51Text:"Esquadrão 51 Contra dos Discos Voadores é um shoot'em up para PC e consoles com estética de filmes de ficção científica dos anos 50.\n\nDesenvolvido por Loomiarts e Fehorama Filmes e publicado por WhisperGames e Assemble Entertainment.\n\nEm breve para PC, Xbox One, PlayStation 4 e Nintendo Switch.",
 				contactHeadlineText:"CONTATO",
 				contactEmailText:"Para entrar em contato com a Loomiarts, envie um e-mail para:",
 				contactEmail:"contato@loomiarts.com",
-				downloadPresskitText:"Clique no botão abaixo para acessar o press kit do jogo Esquadrão 51:",
+				downloadPresskitText:"Clique no botão abaixo para acessar o press kit do jogo Esquadrão 51 Contra dos Discos Voadores:",
 				contactFacebookText:"Curta as nossas páginas no Facebook:",
-				contactSquadron51FacebookButton:"Esquadrão 51",
+				contactSquadron51FacebookButton:"Esquadrão 51...",
 				contactTwitterText:"Siga a Loomiarts no Twitter:",
 				contactYoutubeText:"Inscreva-se no canal do Youtube da Loomiarts:"
 			},
 			images: {
 				squadron51BannerImage: {
 					src:"Images/BannerSitePT.jpg",
-					alt:"Esquadrão 51: clique para acessar a página"
+					alt:"Esquadrão 51 Contra dos Discos Voadores: clique para acessar a página"
 				}
 			}
 		};
@@ -29,23 +29,23 @@ $(function() {
 	{
 		return {
 			strings: {
-				aboutLoomiartsText:"Loomiarts is a game studio. In partnership with Fehorama Filmes, we are currently developing our first project: SQUADRON 51, a shoot'em up with aesthetics directly inspired by sci-fi movies from the fifties which will be published soon by WhisperGames and Assemble Entertainment.",
-				squadron51Title:"SQUADRON 51",
+				aboutLoomiartsText:"Loomiarts is a game studio. In partnership with Fehorama Filmes, we are currently developing our first project: SQUAD 51 VS. THE FLYING SAUCERS, a shoot'em up with aesthetics directly inspired by sci-fi movies from the fifties which will be published soon by WhisperGames and Assemble Entertainment.",
+				squadron51Title:"SQUAD 51 VS. THE FLYING SAUCERS",
 				squadron51ComingSoon:"Coming soon",
-				squadron51Text:"Squadron 51 is a shoot'em up for PC and consoles with aesthetics directly inspired by sci-fi movies from the fifties.\n\nDeveloped by Loomiarts and Fehorama Filmes and published by WhisperGames and Assemble Entertainment.\n\nComing soon for PC, Xbox One, PlayStation 4 and Nintendo Switch.",
+				squadron51Text:"Squad 51 vs. the Flying Saucers is a shoot'em up for PC and consoles with aesthetics directly inspired by sci-fi movies from the fifties.\n\nDeveloped by Loomiarts and Fehorama Filmes and published by WhisperGames and Assemble Entertainment.\n\nComing soon for PC, Xbox One, PlayStation 4 and Nintendo Switch.",
 				contactHeadlineText:"CONTACT",
 				contactEmailText:"To get in touch with Loomiarts, please send an e-mail to:",
 				contactEmail:"contact@loomiarts.com",
-				downloadPresskitText:"Click the button below to access the Squadron 51 press kit:",
+				downloadPresskitText:"Click the button below to access the Squad 51 vs. the Flying Saucers press kit:",
 				contactFacebookText:"Follow our pages on Facebook:",
-				contactSquadron51FacebookButton:"Squadron 51",
+				contactSquadron51FacebookButton:"Squad 51...",
 				contactTwitterText:"Follow Loomiarts on Twitter:",
 				contactYoutubeText:"Subscribe to Loomiarts Youtube channel:"
 			},
 			images: {
 				squadron51BannerImage: {
 					src:"Images/BannerSiteEN.jpg",
-					alt:"Squadron 51: click to access the page"
+					alt:"Squad 51 vs. the Flying Saucers: click to access the page"
 				}
 			}
 		};
