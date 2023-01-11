@@ -3,10 +3,10 @@ $(function() {
 	{
 		return {
 			strings: {
-				aboutLoomiartsText:"Loomiarts é um estúdio de desenvolvimento de jogos. Em parceria com a Fehorama Filmes, estamos desenvolvendo o nosso primeiro projeto: o ESQUADRÃO 51 CONTRA DOS DISCOS VOADORES, um shoot'em up com estética de filmes de ficção científica dos anos 50 que será publicado em breve pela WhisperGames e Assemble Entertainment.",
+				aboutLoomiartsText:"Loomiarts é um estúdio de desenvolvimento de jogos. Em parceria com a Fehorama Filmes, lançamos o nosso primeiro projeto: o ESQUADRÃO 51 CONTRA DOS DISCOS VOADORES, um shoot'em up com estética de filmes de ficção científica dos anos 50, publicado pela WhisperGames e Assemble Entertainment.",
 				squadron51Title:"ESQUADRÃO 51 CONTRA DOS DISCOS VOADORES",
 				squadron51ComingSoon:"Em breve",
-				squadron51Text:"Esquadrão 51 Contra dos Discos Voadores é um shoot'em up para PC e consoles com estética de filmes de ficção científica dos anos 50.\n\nDesenvolvido por Loomiarts e Fehorama Filmes e publicado por WhisperGames e Assemble Entertainment.\n\nEm breve para PC, Xbox One, PlayStation 4 e Nintendo Switch.",
+				squadron51Text:"Esquadrão 51 Contra dos Discos Voadores é um shoot'em up para PC e consoles com estética de filmes de ficção científica dos anos 50.\n\nDesenvolvido por Loomiarts e Fehorama Filmes e publicado por WhisperGames e Assemble Entertainment.\n\n Já disponível na Steam, em breve para Xbox One, PlayStation 4 e Nintendo Switch.",
 				squadron51TrailerLink:"https://www.youtube.com/watch?v=Rd_vTUSy-MQ",
 				contactHeadlineText:"CONTATO",
 				contactEmailText:"Para entrar em contato com a Loomiarts, envie um e-mail para:",
@@ -20,7 +20,7 @@ $(function() {
 			images: {
 				squadron51BannerImage: {
 					src:"Images/BannerSitePT.jpg",
-					alt:"Esquadrão 51 Contra dos Discos Voadores: clique para acessar a página"
+					alt:"Esquadrão 51 Contra dos Discos Voadores: clique para mais informações"
 				}
 			}
 		};
@@ -30,10 +30,10 @@ $(function() {
 	{
 		return {
 			strings: {
-				aboutLoomiartsText:"Loomiarts is a game studio. In partnership with Fehorama Filmes, we are currently developing our first project: SQUAD 51 VS. THE FLYING SAUCERS, a shoot'em up with aesthetics directly inspired by sci-fi movies from the fifties which will be published soon by WhisperGames and Assemble Entertainment.",
+				aboutLoomiartsText:"Loomiarts is a game studio. In partnership with Fehorama Filmes, we developed our first project: SQUAD 51 VS. THE FLYING SAUCERS, a shoot'em up with aesthetics directly inspired by sci-fi movies from the fifties, published by WhisperGames and Assemble Entertainment.",
 				squadron51Title:"SQUAD 51 VS. THE FLYING SAUCERS",
 				squadron51ComingSoon:"Coming soon",
-				squadron51Text:"Squad 51 vs. the Flying Saucers is a shoot'em up for PC and consoles with aesthetics directly inspired by sci-fi movies from the fifties.\n\nDeveloped by Loomiarts and Fehorama Filmes and published by WhisperGames and Assemble Entertainment.\n\nComing soon for PC, Xbox One, PlayStation 4 and Nintendo Switch.",
+				squadron51Text:"Squad 51 vs. the Flying Saucers is a shoot'em up for PC and consoles with aesthetics directly inspired by sci-fi movies from the fifties.\n\nDeveloped by Loomiarts and Fehorama Filmes and published by WhisperGames and Assemble Entertainment.\n\nAlready available on Steam, coming soon on Xbox One, PlayStation 4 and Nintendo Switch.",
 				squadron51TrailerLink:"https://www.youtube.com/watch?v=sK1WevYwhpI",
 				contactHeadlineText:"CONTACT",
 				contactEmailText:"To get in touch with Loomiarts, please send an e-mail to:",
@@ -47,7 +47,7 @@ $(function() {
 			images: {
 				squadron51BannerImage: {
 					src:"Images/BannerSiteEN.jpg",
-					alt:"Squad 51 vs. the Flying Saucers: click to access the page"
+					alt:"Squad 51 vs. the Flying Saucers: click for additional information"
 				}
 			}
 		};
